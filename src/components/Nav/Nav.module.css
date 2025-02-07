@@ -1,0 +1,22 @@
+.NavContinar{
+width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+.Logo{
+    width: 150px;
+}
+.Logo img{
+    width: 100%;
+}
+
+.NavList a{
+    margin-right: 2rem;
+    color: #fff;
+    text-decoration: none;
+}
+/* .NavList-active{
+
+} */
