@@ -3,3 +3,27 @@
    margin: 0 auto;
   padding: 0 20px;
 }
+.Layout{
+  padding: 1rem;
+}
+
+.loading-contanenr{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+}
+.loading {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  animation: rotateAnimation 1s linear infinite; 
+}
+
+@keyframes rotateAnimation {
+  from {
+    transform: rotate(0deg); 
+  }
+  to {
+    transform: rotate(360deg); 
+  }
+}

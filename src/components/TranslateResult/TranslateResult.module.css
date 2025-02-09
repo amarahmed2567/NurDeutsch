@@ -1,0 +1,25 @@
+.TranslateResultContinar{
+    margin: 2rem auto 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+}
+.TranslateResultSubText{
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight:bold;
+    font-style: normal;
+    color: #eeeeeea9;
+    margin-bottom: 1rem;
+}
+.TranslateResuubltMainText{
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight:600;
+    font-style: normal;
+    font-size: 15px;
+    background-color: #E8E1C9;
+    padding: .3rem .6rem;
+    border-radius: .2rem;
+}

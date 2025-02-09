@@ -1,0 +1,6 @@
+.TranslateBtn{
+    cursor: pointer;
+}
+.TranslateBtn:hover{
+    opacity: .5;
+}
