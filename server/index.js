@@ -7,11 +7,12 @@ import TranslatLab from "./module/TranslatLab.js";
 const PORT = process.env.PORT
 const app = express()
 app.use(cors())
-
 app.use(express.json());
 
 app.post("/translate",TranslatLab)
 
 app.listen(PORT,()=>{
-    console.log("Running")
+    console.log(`Running On Port ${PORT} ...` )
 })
+
+// export default  app
