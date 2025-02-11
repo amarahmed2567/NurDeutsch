@@ -8,7 +8,7 @@ function TranslateButton({inputValue,setTransResult,setLoading}) {
  
     const TranslateFun = ()=>{
         setLoading(true)
-        axios.post("http://localhost:5000/translate",{
+        axios.post("https://nur-deutsch.vercel.app/",{
             text:inputValue
         }).then((res)=>{
         setLoading(false)
